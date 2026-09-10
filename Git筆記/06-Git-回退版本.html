@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Git-回退版本</h1>
+  <br>
+  <h2>概念：把版本庫某個版本對應的內容快照恢復到工作區暫存區</h2>
+  <br>
+  <h2>查看日誌命令：git log --oneline</h2>
+  <br>
+  <h2>回退版本命令：git reflog --oneline</h2>
+  <br>
+  <h2>
+    回退版本命令：git reset --soft 版本號<br>
+    HEAD:移動到指定 commit<br>
+    暫存區(index):保持不變(維持原本的狀態,即保留原本要 commit 的內容)<br>
+    工作目錄:保持不變<br>
+  </h2>
+  <h2>
+    回退版本命令：git reset --hard 版本號<br>
+    HEAD:移動到指定 commit<br>
+    暫存區:重置為該 commit 的狀態<br>
+    工作目錄:重置為該 commit 的狀態(所有未提交的修改都會被丟棄)<br>
+  </h2>
+  <h2>
+    回退版本命令：git reset --mixed 版本號<br>
+    HEAD:移動到指定 commit<br>
+    暫存區(index):重置為該 commit 的狀態(也就是清空暫存區裡原本的內容)<br>
+    工作目錄:保持不變<br>
+  </h2>
+
+
+
+
+</body>
+
+</html>
