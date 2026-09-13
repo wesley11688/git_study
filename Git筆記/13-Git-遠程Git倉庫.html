@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Git-遠程Git倉庫</h1>
+  <h2>概念：託管在因特網或其他網絡中的你的項目的版本庫</h2>
+  <h2>作用：保存版本庫的歷史紀錄，多人協作</h2>
+  <h2>創建：公司自己的服務器/第三方托管平台(Gitee,Github,Gitlab)</h2>
+  <h2>步驟：<br>
+    1.註冊第三方托管平台網站平台<br>
+    2.新建倉庫得到遠程倉庫Git地址<br>
+    3.本地Git倉庫添加遠程倉庫原點地址<br>
+    命令：git remote add 倉庫名稱 遠程倉庫原點地址<br>
+    例如：git remote add origin https://github.com/xxx/xxx.git <br>
+    4.本地Git倉庫推送到遠程倉庫<br>
+    命令：git push -u 倉庫名稱 本地和遠程分支名稱<br>
+    例如：git push -u origin master
+    完整寫法：git push --set-upstream origin master
+  </h2>
+</body>
+
+</html>
